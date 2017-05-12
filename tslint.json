@@ -1,0 +1,12 @@
+{
+  "extends": "tslint-config-valorsoft",
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "rules": {
+    "pipe-naming": [true, "camelCase", "todo_mvc"],
+    "jsdoc-format": false,
+    "no-import-side-effect": false,
+    "no-consecutive-blank-lines": [false, 2]
+  }
+}
